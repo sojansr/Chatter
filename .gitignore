@@ -4,3 +4,6 @@
 
 /.vs
 /Chatter.App.Api/obj
+/Chatter.App.Core/obj
+/Chatter.App.Entities/obj
+/Chatter.App.Infra/obj
