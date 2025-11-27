@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chatter.App.Core", "Chatter
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chatter.App.Infra", "Chatter.App.Infra\Chatter.App.Infra.csproj", "{58B06D0E-EE01-495A-8F2F-40F073B1D74C}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Chatter.App.Db", "Chatter.App.Db\Chatter.App.Db.sqlproj", "{DF400C05-A1C1-44BE-889C-6A7B0ACFC735}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,12 @@ Global
 		{58B06D0E-EE01-495A-8F2F-40F073B1D74C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58B06D0E-EE01-495A-8F2F-40F073B1D74C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58B06D0E-EE01-495A-8F2F-40F073B1D74C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF400C05-A1C1-44BE-889C-6A7B0ACFC735}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF400C05-A1C1-44BE-889C-6A7B0ACFC735}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF400C05-A1C1-44BE-889C-6A7B0ACFC735}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{DF400C05-A1C1-44BE-889C-6A7B0ACFC735}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF400C05-A1C1-44BE-889C-6A7B0ACFC735}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF400C05-A1C1-44BE-889C-6A7B0ACFC735}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
